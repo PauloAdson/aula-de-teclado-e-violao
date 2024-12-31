@@ -8,6 +8,7 @@ import pencil from "../../assets/images/pencil-solid.png";
 import clock from "../../assets/images/clock-regular.png";
 import list from "../../assets/images/list-check-solid.png";
 import book from "../../assets/images/book-solid.png";
+import { Footer } from "../Footer/Footer";
 
 
 export class Home extends React.Component {
@@ -26,13 +27,16 @@ export class Home extends React.Component {
                             <p className="uppercase">
                                 Comece do zero e aprenda teclado e violão de forma simples e prática.
                             </p>
-                            <a className="btn-action uppercase" href="https://wa.me/62995132226" rel="noopener" target="_blank">
+                            <a className="btn-action uppercase"
+                                href="https://wa.me/62995132226?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Tenho%20interesse%20em%20agendar%20uma%20aula.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20hor%C3%A1rios%20e%20disponibilidade%3F%20Obrigado!"
+                                rel="noopener"
+                                target="_blank">
                                 Agendar Aula
                             </a>
                         </div>
                     </section>
 
-                    <section className="section2 sobre max-width">
+                    <section id="sobre" className="section2 sobre max-width">
                         <div className="sobre-as-aulas sobre-text">
                             <h2 className="title-section uppercase">Sobre as Aulas</h2>
                             <span className="span-subtitle">Aprenda do zero com confiança!</span>
@@ -82,10 +86,15 @@ export class Home extends React.Component {
                                 titleBeneficios={'Materiais de Apoio'}
                                 textBeneficios={'Acesso a vídeos e arquivos PDF'} />
                         </div>
-                        <a className="btn-action uppercase" href="https://wa.me/62995132226" rel="noopener" target="_blank">
+                        <a className="btn-action uppercase"
+                            href="https://wa.me/62995132226?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Tenho%20interesse%20em%20agendar%20uma%20aula.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20hor%C3%A1rios%20e%20disponibilidade%3F%20Obrigado!"
+                            rel="noopener"
+                            target="_blank">
                             Agendar Aula
                         </a>
                     </section>
+
+                    <Footer />
                 </main>
             </>
         )
