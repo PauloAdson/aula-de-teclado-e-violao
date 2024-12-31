@@ -6,7 +6,7 @@ export class Card extends React.Component {
         return (
             <>
                 <div className="card_container">
-                    <img className="icon-beneficios" src={this.props.iconeBeneficios} alt="" />
+                    <img className="icon-beneficios" src={this.props.iconeBeneficios} alt={this.props.descricaoIcone} />
                     <h3 className="title-beneficios">{this.props.titleBeneficios}</h3>
                     <p className="text-beneficios">{this.props.textBeneficios}</p>
                 </div>

@@ -74,21 +74,25 @@ export class Home extends React.Component {
                         <div className="container_beneficios">
                             <Card
                                 iconeBeneficios={pencil}
+                                descricaoIcone={'Imagem de um lápis '}
                                 titleBeneficios={'Aprendizado Rápido'}
                                 textBeneficios={'Metodologia simples e eficaz.'} />
 
                             <Card
                                 iconeBeneficios={clock}
+                                descricaoIcone={'Imagem de um relógio'}
                                 titleBeneficios={'Horários Flexíveis'}
                                 textBeneficios={'Se adapte às suas rotinas.'} />
 
                             <Card
                                 iconeBeneficios={list}
+                                descricaoIcone={'Imagem de uma lista'}
                                 titleBeneficios={'Prática Constante'}
                                 textBeneficios={'Foco no desenvolvimento de habilidades reais.'} />
 
                             <Card
                                 iconeBeneficios={book}
+                                descricaoIcone={'Imagem de um livro'}
                                 titleBeneficios={'Materiais de Apoio'}
                                 textBeneficios={'Acesso a vídeos e arquivos PDF'} />
                         </div>
