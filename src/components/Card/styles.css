@@ -20,12 +20,13 @@
 }
 
 img.icon-beneficios {
-    width: 48px;
+    width: 28px;
 }
 
 h3.title-beneficios {
     font-size: 2.4rem;
     font-weight: 700;
+    line-height: 42px;
     color: var(--cor-secundaria);
 }
 
