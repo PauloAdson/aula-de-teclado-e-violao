@@ -20,7 +20,7 @@ export class Home extends React.Component {
                     <section className="section1">
                         <div className="section1_content">
                             <h1 className="uppercase">
-                                Descubra o Músico<br />
+                                Descubra o Músico<br className="desktop"/>
                                 que há em você!
                             </h1>
 
@@ -39,22 +39,28 @@ export class Home extends React.Component {
                     <section id="sobre" className="section2 sobre max-width">
                         <div className="sobre-as-aulas sobre-text">
                             <h2 className="title-section uppercase">Sobre as Aulas</h2>
+                            <div className="img-sobre mobile">
+                                <img src={fotoMusical} alt="Imagem decorativa" />
+                            </div>
                             <span className="span-subtitle">Aprenda do zero com confiança!</span>
                             <p className="sobre-paragrafo">
                                 Minhas aulas de teclado e violão são perfeitas para iniciantes. Vou te acompanhar desde os primeiros acordes até tocar suas músicas favoritas, com uma abordagem prática e materiais didáticos fáceis de entender.
                             </p>
                         </div>
-                        <div className="img-sobre">
-                            <img src={fotoMusical} alt="" />
+                        <div className="img-sobre desktop">
+                            <img src={fotoMusical} alt="Imagem decorativa" />
                         </div>
                     </section>
 
                     <section className="section3 sobre max-width">
-                        <div className="img-sobre">
-                            <img src={foteDePaulo} alt="" />
+                        <div className="img-sobre desktop">
+                            <img src={foteDePaulo} alt="Imagem de Paulo Adson" />
                         </div>
                         <div className="sobre-as-aulas sobre-text">
                             <h2 className="title-section uppercase">Quem sou eu?</h2>
+                            <div className="img-sobre mobile">
+                                <img src={foteDePaulo} alt="Imagem de Paulo Adson" />
+                            </div>
                             <span className="span-subtitle">Prazer, sou Paulo Adson!</span>
                             <p className="sobre-paragrafo">
                                 Toco violão há mais de 5 anos e teclado há mais de 3 anos, e minha paixão pela música me levou a ajudar outras pessoas a aprenderem e crescerem nesse universo incrível. Além de músico, também sou desenvolvedor, o que me ajuda a criar métodos dinâmicos e organizados para facilitar seu aprendizado.

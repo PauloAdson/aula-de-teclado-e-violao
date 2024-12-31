@@ -22,7 +22,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
     height: calc(100vh - 189px);
+    padding: 5rem 12px;
     margin-bottom: 48px;
 }
 
@@ -59,6 +61,7 @@ div.section1_content {
 .section1_content p {
     font-size: 2.4rem;
     font-weight: 600;
+    line-height: 42px;
 }
 
 .btn-action {
@@ -85,6 +88,9 @@ div.section1_content {
 }
 
 /* SOBRE: SEÇÃO 2 E 3 */
+.mobile {
+    display: none;
+}
 
 .sobre {
     display: flex;
@@ -127,14 +133,48 @@ div.container_beneficios {
 }
 
 .section4 a.btn-action {
-    /* color: var(--cor-secundaria);
-    background-color: var(--cor-primaria); */
     background-color: var(--cor-terciaria-escuro);
     color: var(--cor-secundaria);
 }
 
 .section4 a.btn-action:hover {
-    /* color: var(--cor-secundaria);
-    background-color: var(--cor-primaria-claro); */
     background-color: var(--cor-terciaria);
+}
+
+@media screen and (max-width: 1036px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .section1 {
+        height: auto;
+    }
+
+    .section1_content h1 {
+        line-height: 62px;
+        font-size: 3rem;
+    }
+
+    .sobre {
+        justify-content: center;
+        text-align: center;
+        gap: 24px;
+    }
+
+    .sobre-text {
+        align-items: center;
+    }
+
+    .img-sobre {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
 }
