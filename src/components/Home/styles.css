@@ -1,0 +1,67 @@
+.section1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 189px);
+}
+
+.section1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/aula-de-teclado-e-violao/refs/heads/main/src/assets/images/background-main.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+div.section1_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.section1_content h1 {
+    font-family: var(--font2);
+    font-size: 4rem;
+    line-height: 82px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+.section1_content p {
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 322px;
+    height: 66px;
+
+    border-radius: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section1 a.btn-action {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+.section1 a.btn-action:hover {
+    color: var(--cor-primaria-claro);
+}
