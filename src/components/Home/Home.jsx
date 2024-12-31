@@ -20,8 +20,7 @@ export class Home extends React.Component {
                     <section className="section1">
                         <div className="section1_content">
                             <h1 className="uppercase">
-                                Descubra o Músico<br className="desktop"/>
-                                que há em você!
+                                Descubra o Músico <br className="desktop"/>que há em você!
                             </h1>
 
                             <p className="uppercase">
