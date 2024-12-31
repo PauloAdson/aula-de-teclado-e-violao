@@ -12,6 +12,11 @@
     border-radius: 8px;
     text-align: center;
     line-height: 22px;
+    transition: 500ms;
+}
+
+.card_container:hover {
+    background-color: var(--cor-primaria-claro);
 }
 
 img.icon-beneficios {

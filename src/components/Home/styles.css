@@ -72,15 +72,16 @@ div.section1_content {
     border-radius: 40px;
     font-size: 2rem;
     font-weight: 700;
+    transition: 500ms;
 }
 
 .section1 a.btn-action {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria-escuro);
+    color: var(--cor-secundaria);
 }
 
 .section1 a.btn-action:hover {
-    color: var(--cor-primaria-claro);
+    background-color: var(--cor-terciaria);
 }
 
 /* SOBRE: SEÇÃO 2 E 3 */
@@ -123,4 +124,17 @@ div.container_beneficios {
     justify-content: center;
     flex-wrap: wrap;
     gap: 48px;
+}
+
+.section4 a.btn-action {
+    /* color: var(--cor-secundaria);
+    background-color: var(--cor-primaria); */
+    background-color: var(--cor-terciaria-escuro);
+    color: var(--cor-secundaria);
+}
+
+.section4 a.btn-action:hover {
+    /* color: var(--cor-secundaria);
+    background-color: var(--cor-primaria-claro); */
+    background-color: var(--cor-terciaria);
 }

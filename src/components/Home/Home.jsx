@@ -82,6 +82,9 @@ export class Home extends React.Component {
                                 titleBeneficios={'Materiais de Apoio'}
                                 textBeneficios={'Acesso a vídeos e arquivos PDF'} />
                         </div>
+                        <a className="btn-action uppercase" href="https://wa.me/62995132226" rel="noopener" target="_blank">
+                            Agendar Aula
+                        </a>
                     </section>
                 </main>
             </>

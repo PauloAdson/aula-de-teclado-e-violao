@@ -10,14 +10,11 @@
     --cor-primaria-claro: #3E3E3E;
 
     --cor-secundaria: #FFFFFF;
-    --cor-secundaria-bg: #fdfdfd;
+    --cor-secundaria-escuro: #d8d8d8;
 
-    --cor-terciaria: #ffaa00;
-    --cor-terciaria-claro: #fdc24c;
-    --cor-terciaria-escuro: #e37a1d;
+    --cor-terciaria: #A5CF4E;
+    --cor-terciaria-escuro: #81b618;
 
-    --cor-btn: #37d145;
-    --cor-btn-hover: #1ab126;
 }
 
 .uppercase {
