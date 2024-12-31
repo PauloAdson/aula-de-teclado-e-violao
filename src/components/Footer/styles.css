@@ -81,7 +81,7 @@ div.footer_copyright {
 }
 
 div.footer_copyright p {
-    color: var(--cor-primaria-opacidade);
+    color: var(--cor-primaria-claro);
 }
 
 div.footer_copyright a {
