@@ -1,9 +1,29 @@
+.max-width {
+    box-sizing: border-box;
+    max-width: 1164px;
+    width: 100%;
+    margin: 48px auto;
+    padding: 0 12px;
+}
+
+.title-section {
+    font-size: 3.2rem;
+}
+
+.span-subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* SEÇÃO 1 */
+
 .section1 {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     height: calc(100vh - 189px);
+    margin-bottom: 48px;
 }
 
 .section1::before {
@@ -34,13 +54,11 @@ div.section1_content {
     font-size: 4rem;
     line-height: 82px;
     letter-spacing: 12px;
-    text-transform: uppercase;
 }
 
 .section1_content p {
     font-size: 2.4rem;
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 .btn-action {
@@ -54,7 +72,6 @@ div.section1_content {
     border-radius: 40px;
     font-size: 2rem;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .section1 a.btn-action {
@@ -64,4 +81,46 @@ div.section1_content {
 
 .section1 a.btn-action:hover {
     color: var(--cor-primaria-claro);
+}
+
+/* SOBRE: SEÇÃO 2 E 3 */
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sobre-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 546px;
+    width: 100%;
+}
+
+.sobre-paragrafo {
+    line-height: 42px;
+}
+
+.img-sobre {
+    max-width: 465px;
+    width: 100%;
+}
+
+/* SEÇÃO 4 BENEFICIOS */
+
+section.section4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+div.container_beneficios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
 }
