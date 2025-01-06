@@ -38,7 +38,7 @@ export class Footer extends React.Component {
                             <li><a href="/#inicio" rel="noopener">Início</a></li>
                             <li><a href="/#sobre" rel="noopener">Sobre</a></li>
                             <li>
-                                <a href="https://wa.me/62995132226?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Tenho%20interesse%20em%20agendar%20uma%20aula.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20hor%C3%A1rios%20e%20disponibilidade%3F%20Obrigado!"
+                                <a href="https://wa.me/62995132226?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20agendar%20algumas%20aulas."
                                     rel="noopener"
                                     target="_blank">
                                     Agendar Aula
@@ -51,7 +51,7 @@ export class Footer extends React.Component {
                             <li>
                                 <a target="_blank"
                                     rel="noopener"
-                                    href="https://wa.me/62995132226?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Tenho%20interesse%20em%20agendar%20uma%20aula.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20hor%C3%A1rios%20e%20disponibilidade%3F%20Obrigado!">
+                                    href="https://wa.me/62995132226?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20agendar%20algumas%20aulas.">
                                     Celular: (62) 99513-2226
                                 </a>
                             </li>

@@ -20,14 +20,14 @@ export class Home extends React.Component {
                     <section className="section1">
                         <div className="section1_content">
                             <h1 className="uppercase">
-                                Descubra o Músico <br className="desktop"/>que há em você!
+                                Descubra o Músico <br className="desktop" />que há em você!
                             </h1>
 
                             <p className="uppercase">
                                 Comece do zero e aprenda teclado e violão de forma simples e prática.
                             </p>
                             <a className="btn-action uppercase"
-                                href="https://wa.me/62995132226?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Tenho%20interesse%20em%20agendar%20uma%20aula.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20hor%C3%A1rios%20e%20disponibilidade%3F%20Obrigado!"
+                                href="https://wa.me/62995132226?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20agendar%20algumas%20aulas."
                                 rel="noopener"
                                 target="_blank">
                                 Agendar Aula
@@ -96,7 +96,7 @@ export class Home extends React.Component {
                                 textBeneficios={'Acesso a vídeos e arquivos PDF'} />
                         </div>
                         <a className="btn-action uppercase"
-                            href="https://wa.me/62995132226?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Tenho%20interesse%20em%20agendar%20uma%20aula.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20hor%C3%A1rios%20e%20disponibilidade%3F%20Obrigado!"
+                            href="https://wa.me/62995132226?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20agendar%20algumas%20aulas."
                             rel="noopener"
                             target="_blank">
                             Agendar Aula
